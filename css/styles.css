@@ -126,12 +126,13 @@ font-family: "Raleway", sans-serif;
 
 .order-title {
 
-    max-width: 496pxgit ;
+    max-width: 496px;
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0 autogit;
 }
 
 .order-button {
