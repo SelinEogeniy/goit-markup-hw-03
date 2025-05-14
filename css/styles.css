@@ -29,8 +29,7 @@ img {
 } 
 
 .container {
-    max-width: 100%;
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -71,8 +70,8 @@ font-family: "Raleway", sans-serif;
 .menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu-list .menu-item .menu-link {
     font-family: "Roboto", sans-serif;
@@ -97,7 +96,8 @@ font-family: "Raleway", sans-serif;
 .contact {
     display: flex;
     gap: 40px;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contact-list .contact-item {
