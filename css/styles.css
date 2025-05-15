@@ -255,10 +255,15 @@ font-family: "Raleway", sans-serif;
 }
 
 /* Footer */
+.footer .container .logo {
+    display: inline-block;
+    padding-bottom: 16px;
+}
 
 .footer {
     font-family: "Roboto", sans-serif;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer .footer-text {
@@ -268,6 +273,7 @@ font-family: "Raleway", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264pxge;
 }
 
 /* Change header */
