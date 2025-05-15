@@ -29,7 +29,7 @@ img {
 } 
 
 .container {
-    max-width: 1440px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -133,6 +133,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     color: #fff;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .order-button {
@@ -144,6 +145,12 @@ font-family: "Raleway", sans-serif;
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
 }
 
 .order-button:hover,
