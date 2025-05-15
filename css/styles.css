@@ -70,8 +70,10 @@ font-family: "Raleway", sans-serif;
 .menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+}
+
+.menu-item {
+    padding: 24px 0;
 }
 .menu-list .menu-item .menu-link {
     font-family: "Roboto", sans-serif;
