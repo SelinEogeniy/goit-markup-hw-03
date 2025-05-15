@@ -171,14 +171,11 @@ font-family: "Raleway", sans-serif;
     clip: rect(0 0 0 0);
     clip-path: inset(100%);
     white-space: nowrap;
-    border: 0; }
+    border: 0;
+}
 
 .about-us {
     padding: 120px 0;
-}
-
-.about-us-list-item {
-    width: calc((100% - 72px) / 4);
 }
 
 .about-us-list {
@@ -186,7 +183,16 @@ font-family: "Raleway", sans-serif;
     display: flex;
     gap: 24px;
 }
-.about-us-title { 
+
+.about-us-list-item {
+    /* базовий стиль без width */
+}
+
+.first-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.about-us-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -198,11 +204,9 @@ font-family: "Raleway", sans-serif;
 .about-us-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
+    color: #434455; }
 
 /* Our crew */
 .team-list {
