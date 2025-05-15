@@ -257,7 +257,7 @@ font-family: "Raleway", sans-serif;
 /* Footer */
 .footer .container .logo {
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer {
