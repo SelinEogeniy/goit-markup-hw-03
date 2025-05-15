@@ -264,7 +264,9 @@ font-family: "Raleway", sans-serif;
     border: 1px solid #e7e9fc;
     border-top: none;
     }
-
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+}
 
 /* Footer */
 .footer .container .logo {
