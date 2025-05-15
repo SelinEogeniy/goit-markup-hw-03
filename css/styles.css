@@ -221,11 +221,13 @@ font-family: "Raleway", sans-serif;
 
 .portfolio {
     font-family: "Roboto", sans-serif;
+    padding: 120px 0;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    ;
 }
 
 .portfolio-title {
@@ -236,6 +238,7 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list .portfolio-item {
